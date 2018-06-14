@@ -13,9 +13,6 @@ import App from './App'
 import router from './router'
 import store from './store'
 
-import '@/assets/icons' // icon
-import '@/permission' // permission control
-
 Vue.use(ElementUI, { locale })
 
 Vue.config.productionTip = false // 设置为 false 以阻止 vue 在启动时生成生产提示。

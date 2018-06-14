@@ -1,26 +1,24 @@
 <template>
-  <div id="app">
-    <h1>Hello Vue!</h1>
+  <div id="three">
+
+    <h1>Father</h1>
 
     <p>
-      <router-link to="/one">Go to pageone</router-link>
-      <router-link to="/two">Go to pagetwo</router-link>
-      <router-link to="/three">嵌套路由</router-link>
+      <router-link to="/three/son1">Go to pageone</router-link>
+      <router-link to="/three/son2">Go to pagetwo</router-link>
     </p>
 
     <router-view></router-view>
+
   </div>
 </template>
 
-
 <script>
-export default {
-  name: 'App'
-}
+
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
-  #app{
+  #three{
     h1, p, a{
       text-align: center;
     }
